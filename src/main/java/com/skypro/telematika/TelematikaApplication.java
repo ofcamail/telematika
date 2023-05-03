@@ -1,0 +1,15 @@
+package com.skypro.telematika;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class TelematikaApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(TelematikaApplication.class, args);
+    }
+
+}
